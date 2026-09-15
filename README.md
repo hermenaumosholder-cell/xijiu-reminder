@@ -16,7 +16,9 @@
 
 适用于 **Apple 芯片 Mac，macOS 13 或更新版本**。
 
-下载发布版本中的 `xijiu-reminder-v1.0.0-macos-arm64.zip`，解压后将「希久提醒.app」放入「应用程序」并打开；也可以按下面步骤从源码构建。
+[下载希久提醒 v1.0.0（Mac 应用）](downloads/xijiu-reminder-v1.0.0-macos-arm64.zip?raw=true)，解压后将「希久提醒.app」放入「应用程序」并打开；也可以按下面步骤从源码构建。
+
+下载包约 4.8 MB，校验值见 [SHA256SUMS](downloads/SHA256SUMS)。私有仓库的下载需要先登录有权限的 GitHub 账号。
 
 应用使用本地临时签名，尚未经过 Apple 公证。从网络下载后，macOS 可能要求你在「系统设置 → 隐私与安全性」中确认打开。
 
@@ -59,6 +61,7 @@ codesign --verify --deep --strict "希久提醒.app"
 | `Resources/AppIcon.icns` | 应用图标 |
 | `Tests/` | 时间表行为测试 |
 | `codex-pet/` | 独立的 Codex v2 桌宠素材 |
+| `downloads/` | 可直接使用的 Mac 应用压缩包及校验值 |
 | `build.sh` | 本地构建与临时签名 |
 
 `codex-pet/` 中的 `pet.json` 与 `spritesheet.webp` 可一起放入 `~/.codex/pets/xijiu/`，供支持 v2 桌宠的 Codex 使用；该素材包本身不运行生活提醒，提醒由 Mac 应用负责。
