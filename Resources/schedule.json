@@ -1,0 +1,30 @@
+{
+  "timezone": "Asia/Shanghai",
+  "weekdays": [
+    {"id":"wake","time":"07:30","title":"早安，起床啦","message":"喝点水，简单整理一下。希久陪你开始新的一天。","state":"waving"},
+    {"id":"breakfast","time":"08:00","title":"吃早餐啦","message":"好好吃早餐，再看看今天最重要的 3 件事。","state":"waving"},
+    {"id":"walk-am","time":"08:10","title":"带希久出去走走吧","message":"早餐后的遛狗时间到了，拿上牵引绳和拾便袋。","state":"jumping"},
+    {"id":"focus-am","time":"09:00","title":"开始上午的专注时间","message":"09:00–12:00 工作或学习。选好一件事，我们开始吧。","state":"running"},
+    {"id":"lunch","time":"12:00","title":"午饭时间到","message":"离开电脑，吃顿午饭，让眼睛也休息一会儿。","state":"waving"},
+    {"id":"nap","time":"13:00","title":"午休一会儿","message":"休息 20–30 分钟，给下午留点精神。","state":"idle"},
+    {"id":"focus-pm","time":"14:00","title":"开始下午的任务","message":"14:00–18:00 工作或学习。先从最需要完成的事情开始。","state":"running"},
+    {"id":"dinner","time":"18:30","title":"晚饭时间到","message":"忙了一天，坐下来好好吃晚饭吧。","state":"waving"},
+    {"id":"walk-pm","time":"18:40","title":"希久等你去遛弯","message":"晚饭后的遛狗时间到了，一起出门走走吧。","state":"jumping"},
+    {"id":"exercise","time":"19:30","title":"活动一下身体","message":"运动或散步 30–60 分钟，选今天喜欢的方式。","state":"waving"},
+    {"id":"review","time":"21:30","title":"给今天收个尾","message":"看看今天完成了什么，再简单安排明天。","state":"review"},
+    {"id":"wind-down","time":"23:00","title":"放慢节奏，准备睡觉","message":"洗漱，放下让人兴奋的活动，让自己慢慢安静下来。","state":"waiting"},
+    {"id":"sleep","time":"23:30","title":"晚安，睡觉啦","message":"今天就到这里。放下手机，希久陪你说晚安。","state":"idle"}
+  ],
+  "weekends": [
+    {"id":"wake","time":"08:30","title":"周末早安","message":"起床喝点水，简单整理，慢慢开始今天。","state":"waving"},
+    {"id":"breakfast","time":"09:00","title":"吃早餐啦","message":"好好吃早餐，再想想今天最想做的 3 件事。","state":"waving"},
+    {"id":"walk-am","time":"09:10","title":"带希久出去走走吧","message":"早餐后的遛狗时间到了，拿上牵引绳和拾便袋。","state":"jumping"},
+    {"id":"lunch","time":"13:00","title":"午饭时间到","message":"吃顿午饭，给自己一点放松的时间。","state":"waving"},
+    {"id":"nap","time":"14:00","title":"午休一会儿","message":"休息 20–30 分钟，醒来再享受周末。","state":"idle"},
+    {"id":"dinner","time":"19:30","title":"晚饭时间到","message":"坐下来好好吃晚饭吧。","state":"waving"},
+    {"id":"walk-pm","time":"19:40","title":"希久等你去遛弯","message":"晚饭后的遛狗时间到了，一起出门走走吧。","state":"jumping"},
+    {"id":"exercise","time":"20:30","title":"活动一下身体","message":"运动或散步 30–60 分钟，按自己的节奏来。","state":"waving"},
+    {"id":"wind-down","time":"22:30","title":"收个尾，准备休息","message":"简单回顾今天、安排明天，然后洗漱，慢慢安静下来。","state":"review"},
+    {"id":"sleep","time":"23:00","title":"晚安，早点睡吧","message":"放下手机，今天就到这里。希久也要休息啦。","state":"idle"}
+  ]
+}
